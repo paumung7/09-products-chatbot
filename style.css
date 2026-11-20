@@ -130,6 +130,8 @@ p {
 .message.bot {
   background: #f0f0f0;
   margin-right: auto;
+  /* Show the AI's line breaks so lists and paragraphs are easy to read */
+  white-space: pre-line;
 }
 
 .message.user {
